@@ -1,12 +1,11 @@
-package fdfdf;
+package chap02_variables;
 
-public class _01 {
+public class _04_typeConv {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		byte byteVal = 10;
+		byte bVal = 10;
 		char chVal = 'A';
-		int intVal = byteVal;
+		int intVal = bVal;
 		
 		System.out.println(intVal);
 		
