@@ -7,7 +7,10 @@ public class _01 {
 		
 		int a = System.in.read();
 		
+<<<<<<< HEAD
 		// 대．소문자 판별
+=======
+>>>>>>> 3f4ed33daf639ddd5a187550a92927213bae6530
 		if (a >= 65 && a<= 90) 
 			System.out.printf("대문자입니다. 소문자로 변경: %c", (char)a+32);
 		else if (a >= 97 && a<= 122) 
