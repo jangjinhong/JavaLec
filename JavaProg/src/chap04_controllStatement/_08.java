@@ -1,7 +1,6 @@
 package chap04_controllStatement;
 
 import java.io.IOException;
-import java.util.Scanner;
 
 public class _08 {
 	public static void main(String[] args) throws IOException {

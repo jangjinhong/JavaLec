@@ -11,7 +11,7 @@ public class ObjectCopy {
 		bookArray1[1] = new Book("B", "bbb");
 		bookArray1[2] = new Book("C", "ccc");
 		
-		System.arraycopy(bookArray1, 0, bookArray2, 0, 3);
+		System.arraycopy (bookArray1, 0, bookArray2, 0, 3);
 		
 		
 		for(int i=0; i<bookArray2.length; i++)

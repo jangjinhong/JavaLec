@@ -1,4 +1,4 @@
-package _0215;
+package Com;
 
 public class Person {
 	String name;

@@ -1,4 +1,4 @@
-package _0215;
+package Com;
 
 // 싱클톤 패턴 - static
 public class Company {
