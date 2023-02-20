@@ -33,12 +33,10 @@ public class DistanceChanger {
 		case "km" :
 			if (unit == "cm")
 				changeDistance = distance/100000;
-			 if (unit == "m")
+			else if (unit == "m")
 				changeDistance = distance/1000;
-			if (unit == "inch");
+			else if (unit == "inch");
 				changeDistance = (long) (distance/39370.1);
-			else
-				System.out.println("cm, m,  inch 중 하나를 입력해 주세요.");
 			break;
 			
 		case "inch" :
